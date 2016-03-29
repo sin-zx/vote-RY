@@ -1,0 +1,70 @@
+body{
+	padding: 0;
+	margin: 0 auto;
+	width: 990px;
+}
+.list h4{
+	text-align: center;
+	color: #0099FF;
+	min-height: 45px;
+}
+.list p{
+	text-align: center;
+}
+.list img{
+	
+	width: 324px;
+	height: 410px;
+
+
+}
+.item{
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 30%;
+}
+#mybtn{
+	
+	margin-left: 100px;
+}
+.jumpmenu{
+	width: 100%;
+	margin: 20px;
+	min-height: 100px;
+	padding: 5px;
+}
+.pagenum{
+	width: 33%;
+	margin: 20px auto;
+}
+.list{
+	width: 100%;
+	margin: 5px;
+	
+}
+.border{
+	border-bottom: 1px solid #D3D3D3;
+	margin-bottom: 10px;
+}
+
+/*内容展示页*/
+.content{
+	width: 95%;
+	margin: 25px auto;
+	padding: 20px;
+}
+.content>.title{
+	text-align: center;
+}
+.content img{
+	margin: 0 auto;
+	
+}
+.content>.main{
+	margin:50px 0;
+}
+.content>.intro{
+	text-align: center;
+}

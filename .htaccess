@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|data)
+RewriteRule ^(.*)$ /ns/ry-vote/index.php/$1 [L]
+#隐藏index.php 防止重定义data文件夹
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 /index.php
+</IfModule>
